@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\User\source\repos\Project2\FileName.cpp(9,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\Project2\FileName.cpp(22,16): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  Project2.vcxproj -> C:\Users\User\source\repos\Project2\x64\Debug\Lab#6.exe
