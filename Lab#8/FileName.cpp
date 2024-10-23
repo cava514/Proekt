@@ -1,26 +1,26 @@
 #include <iostream>
 using namespace std;
-void del(double a, double b) {//Zadanie#1
+int del(double a, double b) {//Zadanie#1
 	if (b == 0) {
-		cout << 0 << endl;
+		return 0;
 	}
 	else {
-		cout << a / b << endl;
+		return a / b;
 	}
 }
-void plosh(double a1) {//Zadanie#2
-	cout << a1 * a1 << endl;
+int plosh(double a1) {//Zadanie#2
+	return a1 * a1;
 }
-void plosh(double a2, double b2) {//Zadanie#2
-	cout << a2 * b2 << endl;
+int plosh(double a2, double b2) {//Zadanie#2
+	return a2 * b2;
 }
-void step(double a3, int x) {//Zadanie#3
+int step(double a3, int x) {//Zadanie#3
 	if (x>-1) {
 		double a3_1{ 1 };
 		for (auto i{ 0 }; i < x; i++) {
 			a3_1 *= a3;
 		}
-		cout << a3_1 << endl;
+		return a3_1;
 	}
 }
 int stepen(double a4, int x_1) {//Zadanie#4
@@ -37,12 +37,12 @@ int stepen(double a4, int x_1) {//Zadanie#4
 }
 int main() {
 	printf("Zadanie#1\n");
-	del(10, 2.5);
+	cout << del(10, 2.5) << endl;
 	printf("Zadanie#2\n");
-	plosh(5);
-	plosh(5, 6);
+	cout << plosh(5) << endl;
+	cout << plosh(5, 6) << endl;
 	printf("Zadanie#3\n");
-	step(3, 3);
+	cout << step(3, 3) << endl;
 	printf("Zadanie#4\n");
 	cout << stepen(2, 4) << endl;
 	return 0;
