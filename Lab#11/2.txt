@@ -1,0 +1,1 @@
+Kolichestvo vhozhdeniy lin file 1.txt: 5
